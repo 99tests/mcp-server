@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "99tests": {
+      "url": "https://99tests.com/api/mcp"
+    }
+  }
+}
