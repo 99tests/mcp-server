@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.99tests/mcp",
+  "title": "99tests",
+  "description": "Order human-run real-device app tests from your coding agent; verified bugs return as fix prompts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://99tests.com/mcp-server",
+  "icons": [
+    {
+      "src": "https://99tests.com/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": ["192x192"]
+    },
+    {
+      "src": "https://99tests.com/icon-48.png",
+      "mimeType": "image/png",
+      "sizes": ["48x48"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://99tests.com/api/mcp"
+    }
+  ]
+}
