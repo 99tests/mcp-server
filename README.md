@@ -1,6 +1,6 @@
 # 99tests MCP server and plugin
 
-Order a human-run, real-device test of your app or website from Claude, Cursor, VS Code, Gemini CLI or any MCP client, and get verified findings back as ready-to-paste fix prompts.
+Order a human-run, real-device test of your app or website from Claude, Cursor, VS Code, Cline, Gemini CLI or any MCP client, and get verified findings back as ready-to-paste fix prompts.
 
 99tests has run crowdsourced testing since 2010: 20,000 registered testers across India on real phones and browsers, fixed prices shown before you pay, and a verified report within days. Docs and pricing: https://99tests.com/mcp-server
 
@@ -71,7 +71,20 @@ VS Code (`.vscode/mcp.json`):
 }
 ```
 
-Other MCP clients: add a remote MCP server with the URL above.
+Cline (`cline_mcp_settings.json`):
+
+```json
+{
+  "mcpServers": {
+    "99tests": {
+      "type": "streamableHttp",
+      "url": "https://99tests.com/api/mcp"
+    }
+  }
+}
+```
+
+Other MCP clients: add a remote MCP server with the URL above. Notes for AI agents that install it: [llms-install.md](llms-install.md).
 
 ## Use it
 
