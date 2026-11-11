@@ -1,0 +1,23 @@
+{
+  "name": "99tests",
+  "displayName": "99tests",
+  "version": "1.0.0",
+  "description": "Order a human-run test of your app or website on real phones and browsers, follow the job, and apply the verified findings as fix prompts.",
+  "author": {
+    "name": "99tests",
+    "email": "hello@99tests.com",
+    "url": "https://99tests.com"
+  },
+  "homepage": "https://99tests.com/mcp-server",
+  "privacyPolicyUrl": "https://99tests.com/privacy",
+  "repository": "https://github.com/99tests/mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "qa",
+    "real-device-testing",
+    "mobile-testing",
+    "crowdtesting",
+    "manual-testing"
+  ]
+}
