@@ -3,8 +3,12 @@
   "name": "com.99tests/mcp",
   "title": "99tests",
   "description": "Order human-run real-device app tests from your coding agent; verified bugs return as fix prompts.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://99tests.com/mcp-server",
+  "repository": {
+    "url": "https://github.com/99tests/mcp-server",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://99tests.com/icon-192.png",
